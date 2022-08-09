@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
 	<>
-	  <h1>I am Starting my own personal portfolio project</h1>
+	  <Navbar />
 	</>  
   );
 }
