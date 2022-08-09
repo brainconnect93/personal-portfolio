@@ -28,6 +28,7 @@ body {
   list-style: none;
   margin-right: 30px;
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-menu ul li a {
