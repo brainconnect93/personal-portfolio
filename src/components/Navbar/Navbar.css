@@ -29,16 +29,11 @@ body {
   margin-right: 30px;
   color: #fff;
   cursor: pointer;
-}
-
-.nav-menu ul li a {
-  text-decoration: none;
-  color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
 }
 
-.nav-menu ul li a:hover {
+.nav-menu ul li:hover {
   color: #ff0;
   transition: 1.5s;
 }
