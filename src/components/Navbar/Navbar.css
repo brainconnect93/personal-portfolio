@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: right;
+  background-color: #cd5c5c;
+  width: 100%;
+  height: 73px;
+  top: 0;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin-right: 10%;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  margin-right: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.nav-menu ul li:hover {
+  color: #ff0;
+  transition: 1.5s;
+}
