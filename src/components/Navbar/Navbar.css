@@ -40,4 +40,5 @@ body {
 
 .nav-menu ul li a:hover {
   color: #ff0;
+  transition: 1.5s;
 }
