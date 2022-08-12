@@ -1,0 +1,21 @@
+.about-sec {
+  height: auto;
+  width: 100%;
+}
+
+.about-content {
+  width: 78%;
+  margin: 0 11%;
+  padding: 0;
+}
+
+.about-img img {
+  border-radius: 150px;
+  margin: 85px 0;
+}
+
+.about-details {
+  margin-top: 85px;
+  text-align: left;
+  padding: 20px;
+}
