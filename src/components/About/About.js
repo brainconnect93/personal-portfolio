@@ -36,12 +36,13 @@ const About = () => (
                 <h6>Ruby on rail</h6>
                 <p>
                   Rails is a full-stack framework. It ships with all the tools
-                  needed to build amazing web apps on both the front and back
-                  end
+                  needed to build amazing web apps.
                 </p>
               </div>
             </div>
+            </div>
 
+            <div className="about-cards">
             <div className="about-items">
               <div className="about-icon">
                 <p>
@@ -52,12 +53,12 @@ const About = () => (
                 <h6>React</h6>
                 <p>
                   React is a JavaScript library for building user interfaces.
-                  Declarative: React makes it painless to create interactive
-                  UIs.
                 </p>
               </div>
             </div>
+            </div>
 
+            <div className="about-cards">
             <div className="about-items">
               <div className="about-icon">
                 <p>
@@ -68,15 +69,15 @@ const About = () => (
                 <h6>JavaScript</h6>
                 <p>
                   JavaScript is the world&apos;s most popular programming
-                  language. JavaScript is the programming language of the Web
+                  language.
                 </p>
+              </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 );
 
 export default About;
