@@ -18,6 +18,7 @@ const About = () => (
         <div className="about-details">
           <div className="about-text">
             <h4>About</h4>
+            <span className="line"></span>
           </div>
           <p>
             Hello I&apos;m a developer! I can help you build a product, feature

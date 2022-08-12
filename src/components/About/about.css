@@ -23,8 +23,14 @@
 
 .about-text h4 {
   text-align: center;
-  text-decoration: underline;
-  padding-bottom: 10px;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 2.5px;
+  margin: 3px auto;
+  background-color: #cd5c5c;
 }
 
 .about-cards {
