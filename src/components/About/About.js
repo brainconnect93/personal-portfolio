@@ -16,12 +16,11 @@ const About = () => (
         <div className="about-details">
           <div className="about-text">
             <h4>About</h4>
-            <span className="line" />
+            <div className="come"></div>
           </div>
           <p>
-            Hello I&apos;m a software developer! I can help you build a product,
-            feature or website. Look through some of my work and experience! and
-            let me be your one and only plug, don&apos;t hestiate to contact me.
+            Hello I&apos;m a developer! I can help you build a product, feature
+            or website. Let me be your plug, don&apos;t hestiate to contact me.
           </p>
         </div>
       </div>

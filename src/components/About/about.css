@@ -19,3 +19,15 @@
   text-align: left;
   padding: 20px;
 }
+
+.about-text h4 {
+  text-align: center;
+}
+
+/* .come {
+  display: block;
+  height: 5px;
+  width: 70px;
+  margin: 5px auto;
+  color: #cd5c5cda;
+} */
