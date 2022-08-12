@@ -31,3 +31,19 @@
   margin: 5px auto;
   color: #cd5c5cda;
 } */
+
+.about-cards {
+ 
+}
+
+.about-items {
+  background-color: #f7d010da;
+  display: flex;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.about-icon {
+  padding-right: 10px;
+  color: #cd5c5c;
+}
