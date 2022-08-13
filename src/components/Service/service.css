@@ -1,0 +1,62 @@
+.service-section {
+  height: 900px;
+}
+
+.service-content {
+  width: 78%;
+  margin: 0 11%;
+  padding: 0;
+}
+
+.section-head h4 {
+  text-align: center;
+}
+
+.service {
+  margin-top: 85px;
+  padding: 10px;
+  color: #000;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+
+.service:hover {
+  border-left: 3px solid #f7d010da;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.numbers {
+  height: 35px;
+  width: 35px;
+  border-radius: 80px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: -30px auto 12px auto;
+}
+
+.numbers p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.list-line {
+  display: block;
+  width: 100%;
+  height: 0.6px;
+  margin-bottom: 10px;
+  background-color: #cd5c5c;
+}
+
+.service-list p {
+  text-align: left;
+}

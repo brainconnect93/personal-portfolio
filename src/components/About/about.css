@@ -16,7 +16,7 @@
 
 .about-details {
   margin-top: 85px;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   text-align: left;
   padding: 20px;
 }
@@ -25,13 +25,13 @@
   text-align: center;
 }
 
-/* .come {
+.line {
   display: block;
-  height: 5px;
   width: 70px;
-  margin: 5px auto;
-  color: #cd5c5cda;
-} */
+  height: 2.5px;
+  margin: 3px auto;
+  background-color: #cd5c5c;
+}
 
 .about-cards {
   background-color: #f7d010da;
@@ -42,11 +42,27 @@
   margin: 10px 0;
 }
 
+.about-cards::after {
+  display: block;
+  content: "";
+  border-bottom: 4px solid #cd5c5c;
+  transform: scaleX(0);
+  transition: transform 1s ease-in-out;
+}
+
 .about-cards:hover {
   box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
   transition: 1.5s;
+}
+
+.about-cards:hover::after {
+  box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  transition: 1.5s;
+  transform: scaleX(1);
 }
 
 .about-items {
