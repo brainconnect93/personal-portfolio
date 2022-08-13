@@ -1,5 +1,5 @@
 .service-section {
-  height: 900px;
+  height: 800px;
 }
 
 .service-content {
@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-.section-head h4 {
+.section-head h5 {
   text-align: center;
 }
 
@@ -23,12 +23,12 @@
 }
 
 .service:hover {
-  border-left: 3px solid #f7d010da;
+  border-left: 3px solid #cd5c5c;
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   cursor: pointer;
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .numbers {
