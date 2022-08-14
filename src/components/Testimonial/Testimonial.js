@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React from 'react';
+import React, { useState } from 'react';
 import './testimonial.css';
 
 const Testimonial = () => {
@@ -61,6 +61,12 @@ const Testimonial = () => {
       },
     ];
 
+    const [seeMorePost, setSeeMorePost] = useState(3);
+
+    const loadMore = () => {
+      setSeeMorePost((prev) => prev+3)
+    };
+
   return (
     <div className="container testy-section">
       <div className="section-head">
@@ -69,7 +75,7 @@ const Testimonial = () => {
       </div>
 
       <div className="row testy-content">
-        {testimonialData.map((item,index) => (
+        {testimonialData.slice(0,seeMorePost).map((item,index) => (
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
             <div className="testy-cards">
               <img src={item.image} alt="images" />
@@ -81,6 +87,12 @@ const Testimonial = () => {
             </div>
           </div>
         ))}
+        
+        {seeMorePost>=testimonialData.length ? null : (
+          <button type="button" 
+          className="load-more-btn"
+          onClick={loadMore}>Load More</button>
+        )}
       </div>
     </div>
   );
