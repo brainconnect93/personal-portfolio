@@ -17,7 +17,7 @@ const About = () => (
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <div className="about-details">
           <div className="about-text">
-            <h4>About</h4>
+            <h5>About</h5>
             <span className="line"></span>
           </div>
           <p>
