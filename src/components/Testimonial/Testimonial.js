@@ -77,7 +77,8 @@ const Testimonial = () => {
       <div className="row testy-content">
         {testimonialData.slice(0,seeMorePost).map((item,index) => (
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
-            <div className="testy-cards">
+
+            <div className={index==0 ? "mark-testy-card" : "testy-cards"}>
               <img src={item.image} alt="images" />
               <p>{item.content}</p>
               <p>
