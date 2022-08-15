@@ -17,8 +17,12 @@ body {
   height: 70px;
   top: 0;
   align-items: center;
-  position: fixed;
+  position: sticky;
   z-index: 1;
+}
+
+.nav-color {
+  background-color: #38004c;
 }
 
 .nav-menu ul {
