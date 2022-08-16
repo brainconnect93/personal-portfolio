@@ -44,3 +44,7 @@ body {
   color: #ff0;
   transition: 1.5s;
 }
+
+.nav-items .active {
+  color: #ff0;
+}

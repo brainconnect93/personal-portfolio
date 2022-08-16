@@ -3,7 +3,7 @@ import './head.css';
 import Typewriter from 'typewriter-effect';
 
 const Head = () => (
-  <div className="container-fluid head">
+  <div className="container-fluid head" id="home">
     <div className="container head-content">
       <h1 className="head-text">
         <Typewriter

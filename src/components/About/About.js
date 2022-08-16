@@ -6,7 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { SiJavascript, SiRubyonrails } from "react-icons/si";
 
 const About = () => (
-  <div className="container about-sec">
+  <div className="container about-sec" id="about">
     <div className="row about-content">
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <div className="about-img">
