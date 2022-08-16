@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React from "react";
+import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import "./footer.css";
 
 const Footer = () => {
@@ -18,6 +20,20 @@ const Footer = () => {
                 what you see and have a project you need to work on, dont
                 hestiate to contact me.
               </p>
+              <span className="footer-icons">
+                <p>
+                  <FaFacebookSquare size={20} />
+                </p>
+                <p>
+                  <BsTwitter size={20} />
+                </p>
+                <p>
+                  <FaInstagramSquare size={20} />
+                </p>
+                <p>
+                  <BsLinkedin size={20} />
+                </p>
+              </span>
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">Footer</div>
