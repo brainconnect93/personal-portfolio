@@ -29,9 +29,9 @@ const Team = () => {
     },
     {
       id: 5,
-      name: "",
+      name: "Basir Mohammadi",
       text: "It is not everyday you come across a passionate and truthworthy financial adviser",
-      img: "https://avatars.githubusercontent.com/u/16392046?v=4",
+      img: "https://avatars.githubusercontent.com/u/101289027?s=100&v=4",
     },
     {
       id: 6,
