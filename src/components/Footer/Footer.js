@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare,FaInstagramSquare,FaGithubSquare } from "react-icons/fa";
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import "./footer.css";
 
@@ -31,7 +31,10 @@ const Footer = () => {
                   <FaInstagramSquare size={20} />
                 </p>
                 <p>
-                  <BsLinkedin size={20} />
+                  <BsLinkedin size={18} />
+                </p>
+                <p>
+                  <FaGithubSquare size={21} />
                 </p>
               </span>
             </div>

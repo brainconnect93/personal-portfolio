@@ -14,3 +14,13 @@
 .footer-deatils {
   margin: 30px 0;
 }
+
+.footer-icons {
+  display: flex;
+  color: orange;
+  cursor: pointer;
+}
+
+.footer-icons p {
+  margin-right: 8px;
+}
