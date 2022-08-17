@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Service from './components/Service/Service';
 import './index.css';
 import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 
 const App = () => (
   <>
@@ -14,7 +15,7 @@ const App = () => (
     <About />
     <Service />
     <Testimonial />
-
+    <Footer />
     <ScrollToTop
       smooth
       color="#fff"
