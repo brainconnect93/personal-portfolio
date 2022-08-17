@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-.footer-deatils {
+.footer-about {
   margin: 30px 0;
 }
 
@@ -23,4 +23,36 @@
 
 .footer-icons p {
   margin-right: 8px;
+}
+
+.footer-service {
+  margin: 30px 0;
+}
+
+.footer-item li {
+  list-style-type: none;
+  padding-top: 8px;
+  background-position: 0 calc(100% - var(--bottom-distance));
+  width: fit-content;
+}
+
+.footer-item li:hover {
+  background-size: 100% var(--border-width);
+  cursor: pointer;
+}
+
+.footer-custom {
+  margin: 30px 0;
+}
+
+li {
+  --border-color: rgb(40, 116, 59);
+  --border-color2: rgb(254, 253, 252);
+  --border-width: 2px;
+  --bottom-distance: 0px;
+  display: block;
+  background-image: linear-gradient(var(--border-color), var(--border-color2));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 1s;
 }
