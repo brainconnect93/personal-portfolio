@@ -29,9 +29,8 @@
   cursor: pointer;
 }
 
-.team-items img{
+.team-items img {
   height: 240px;
-  /* object-fit: cover; */
   cursor: pointer;
   transition: transform 2.5s, filter 2s ease-in-out;
   transform-origin: center;
