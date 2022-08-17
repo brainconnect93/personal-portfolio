@@ -7,6 +7,7 @@ import Service from './components/Service/Service';
 import './index.css';
 import Testimonial from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
+import Team from './components/Team/Team';
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
     <Head />
     <About />
     <Service />
+    <Team />
     <Testimonial />
     <Footer />
     <ScrollToTop
