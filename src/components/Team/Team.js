@@ -44,7 +44,7 @@ const Team = () => {
     },
   ];
   return (
-    <div className="container team-section">
+    <div className="container team-section" id="team">
       <div className="section-head">
         <h5>Team Members</h5>
         <span className="line"></span>
@@ -52,7 +52,7 @@ const Team = () => {
 
       <div className="row team-content">
         {teamData.map((item, index) => (
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"  key={index}>
             <div className="card team-items">
               <img src={item.img} alt="images" />
               <div className="team-info">
@@ -61,7 +61,7 @@ const Team = () => {
               </div>
               <span className="team-line"></span>
 
-              <div className="footer-icons">
+              <div className="team-icons">
                 <p>
                   <FaFacebookF />
                 </p>

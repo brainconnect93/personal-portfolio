@@ -4,7 +4,7 @@
 
 .team-content {
   width: 78%;
-  margin: 0 11%;
+  margin: 20px 11% 80px 11%;
   padding: 0;
 }
 
@@ -55,15 +55,16 @@
   margin: 2px auto;
 }
 
-.footer-icons {
+.team-icons {
   display: flex;
   justify-content: center;
 }
 
-.footer-icons p {
+.team-icons p {
   width: 30px;
   height: 30px;
   background-color: #000;
+  color: orange;
   border-radius: 70px;
   display: flex;
   justify-content: center;
@@ -71,7 +72,7 @@
   margin: 15px 8px;
 }
 
-.footer-icons p:hover {
+.team-icons p:hover {
   background-color: orange;
   color: #000;
   transition: 1.5s;
