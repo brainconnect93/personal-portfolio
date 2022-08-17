@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React from "react";
+import { FaFacebookF,FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
 import './team.css';
 
 const Team = () => {
@@ -57,7 +59,20 @@ const Team = () => {
               <h5>{item.name}</h5>
               <p>{item.text}</p>
               </div>
-            </div>
+              <span className="team-line"></span>
+
+              <div className="footer-icons">
+                <p>
+                  <FaFacebookF />
+                </p>
+                <p>
+                  <FaLinkedinIn />
+                </p>
+                <p>
+                  <AiOutlineTwitter />
+                </p>
+              </div>
+            </div>           
           </div>
         ))}
       </div>
