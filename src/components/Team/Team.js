@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from "react";
+import './team.css';
 
 const Team = () => {
   const teamData = [
@@ -29,15 +30,15 @@ const Team = () => {
     },
     {
       id: 5,
-      name: "Basir Mohammadi",
+      name: "Afolabi Akorede",
       text: "It is not everyday you come across a passionate and truthworthy financial adviser",
-      img: "https://avatars.githubusercontent.com/u/101289027?s=100&v=4",
+      img: "https://avatars.githubusercontent.com/u/78634841?v=4",
     },
     {
       id: 6,
-      name: "Favour Ezeugwa",
+      name: "Abby Nyakara",
       text: "It is not everyday you come across a passionate and truthworthy financial adviser",
-      img: "https://avatars.githubusercontent.com/u/99246359?s=100&v=4",
+      img: "https://avatars.githubusercontent.com/u/81410040?v=4",
     },
   ];
   return (
@@ -48,7 +49,17 @@ const Team = () => {
       </div>
 
       <div className="row team-content">
-        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div>
+        {teamData.map((item, index) => (
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div className="card team-items">
+              <img src={item.img} alt="images" />
+              <div className="team-info">
+              <h5>{item.name}</h5>
+              <p>{item.text}</p>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
