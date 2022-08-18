@@ -44,7 +44,7 @@ const Video = () => {
   ];
 
   return (
-    <div className="container video-section">
+    <div className="container video-section" id="video">
       <div className="section-head">
         <h5>Video</h5>
         <span className="line"></span>
