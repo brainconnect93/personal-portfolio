@@ -1,9 +1,16 @@
 .feed-section {
   height: auto;
+  margin-top: 40px;
+}
+
+.feed-content {
+  width: 78%;
+  margin: 10px 11% 40px 11%;
+  padding: 0;
 }
 
 .feed-slider {
-  padding: 0;
+  padding: 12px;
   color: #fff;
   background-color: orange;
   text-align: center;

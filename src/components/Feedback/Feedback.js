@@ -1,6 +1,8 @@
 /* eslint-disable */
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./feedback.css";
 
 const Feedback = () => {
@@ -92,6 +94,11 @@ const Feedback = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
+    autoPlay: true,
+    slidesPerRow: 2,
+    row: 1,
+    initialSlide: 0,
+    adaptiveHeight: true,
     slidesToScroll: 1
   };
   return (
