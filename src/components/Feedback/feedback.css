@@ -1,0 +1,17 @@
+.feed-section {
+  height: auto;
+}
+
+.feed-slider {
+  padding: 0;
+  color: #fff;
+  background-color: orange;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.feed-slider img.feed-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 70px;
+}

@@ -102,7 +102,7 @@ const Feedback = () => {
       </div>
 
       <Slider {...settings}>
-      <div className="row feed-content">
+      <div className="feed-content">
         {feedData.map((item,index) => (
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div className="card feed-slider" key={index}>
@@ -115,7 +115,7 @@ const Feedback = () => {
         ))}
       </div>
       </Slider>
-      
+
     </div>
   );
 };
