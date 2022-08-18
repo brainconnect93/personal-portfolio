@@ -1,0 +1,55 @@
+.feed-section {
+  height: auto;
+  margin-top: 40px;
+}
+
+.feed-content {
+  width: 78%;
+  margin: 10px 11% 40px 11%;
+  padding: 0;
+}
+
+.feed-slider {
+  padding: 12px;
+  color: #fff;
+  background-color: #ff854c;
+  text-align: center;
+  margin: 40px 10px 20px 10px;
+  cursor: pointer;
+}
+
+.feed-slider:hover {
+  background-color: #030749;
+  box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 10px 4px 0 rgba(0, 0, 0, 0.75);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+.feed-slider img.feed-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 70px;
+  object-fit: cover;
+  align-items: center;
+  margin: -40px auto 0 auto;
+}
+
+.slick-prev::before {
+  color: #ff854c;
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+.slick-next::before {
+  color: #ff854c;
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+.slick-disable {
+  pointer-events: none;
+}

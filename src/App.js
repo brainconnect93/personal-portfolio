@@ -8,6 +8,7 @@ import './index.css';
 import Testimonial from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
 import Team from './components/Team/Team';
+import Feedback from './components/Feedback/Feedback';
 
 const App = () => (
   <>
@@ -17,6 +18,7 @@ const App = () => (
     <Service />
     <Team />
     <Testimonial />
+    <Feedback />
     <Footer />
     <ScrollToTop
       smooth
