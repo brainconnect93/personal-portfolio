@@ -21,4 +21,7 @@
   height: 50px;
   width: 50px;
   border-radius: 70px;
+  object-fit: cover;
+  align-items: center;
+  margin-top: -40px;
 }
