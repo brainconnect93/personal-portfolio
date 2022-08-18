@@ -36,14 +36,14 @@
   margin: -40px auto 0 auto;
 }
 
-.slick-prev:before {
+.slick-prev::before {
   color: #ff854c;
   font-size: 20px;
   margin-top: 10px;
   display: block;
 }
 
-.slick-next:before {
+.slick-next::before {
   color: #ff854c;
   font-size: 20px;
   margin-top: 10px;
